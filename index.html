@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delhi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Sounds of Delhi</h1>
+  <p>Exploring the sounds of Delhi through my ears.</p>
+
+  <h2>Listen to the City through My Ears</h2>
+
+  <p id="message">Press play to explore the sounds during different hours of a day in Delhi.</p>
+
+  <h2>Experience Delhi</h2>
+
+  <!-- Each scene has a picture with the matching audio underneath -->
+  <div class="scenes">
+
+    <div class="scene-card" id="morningCard">
+      <h3>Morning at India Gate</h3>
+      <img src="images/morning.jpeg" alt="India Gate in Delhi in the morning">
+      <audio id="soundscape" controls>
+        <source src="audio/morning.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="scene-card" id="metroCard">
+      <h3>Delhi Metro</h3>
+      <img src="images/commute.jpeg" alt="A Delhi Metro train during the afternoon commute">
+      <audio id="metroAudio" controls>
+        <source src="audio/metro.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="scene-card" id="eveningCard">
+      <h3>Red Fort at Night</h3>
+      <img src="images/evening.jpeg" alt="The Red Fort in Delhi in the evening">
+      <audio id="eveningAudio" controls>
+        <source src="audio/night.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
